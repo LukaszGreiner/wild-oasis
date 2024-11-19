@@ -29,8 +29,8 @@ export default function RootLayout({ children }) {
       >
         <Header />
 
-        <div className="flex-1 px-8 py-12">
-          <main className="max-w-7x mx-auto">{children}</main>
+        <div className="flex-1 px-8 py-12 grid">
+          <main className="max-w-7x mx-auto w-full">{children}</main>
         </div>
         <footer>&copy; Copyrighted by The Wild Oasis</footer>
       </body>
